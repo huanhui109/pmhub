@@ -1,0 +1,11 @@
+{
+  "name": "pmhub-knowledge-site",
+  "version": "1.1.0",
+  "description": "PMHub · IT 项目管理知识库（PMBOK 实践问答）静态站点",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "node --test test/",
+    "deploy": "python3 deploy.py"
+  }
+}
